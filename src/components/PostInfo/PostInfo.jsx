@@ -14,9 +14,9 @@ export const PostInfo = ({ post }) => (
       </p>
     </div>
 
-    <p className="PostInfo__body">
+    <div className="PostInfo__body">
       <CommentList comments={post.comments} />
-    </p>
+    </div>
 
     <hr />
 
